@@ -13,8 +13,8 @@ function QuickLinks() {
                 <h3>Contact Us</h3>
                 <ul className="con_inner_text">
                 <li><span className="fa fa-map-marker" aria-hidden="true" />1234k Avenue, 4th block, <label> New York City.</label></li>
-                <li><span className="fa fa-envelope-o" aria-hidden="true" /> <a href="mailto:info@example.com">info@example.com</a></li>
-                <li><span className="fa fa-phone" aria-hidden="true" /> +1234 567 567</li>
+                <li><span className="fa fa-envelope-o" aria-hidden="true" /> <a href="mailto:info@example.com">info@daiss.com</a></li>
+                <li><span className="fa fa-phone" aria-hidden="true" /> +91 9876 543 210</li>
                 </ul>
             </div>
             <div className="col-md-4 hunt3layouts_footer_grid">

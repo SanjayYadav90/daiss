@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 function NavHeader() {
   return (
@@ -12,22 +13,22 @@ function NavHeader() {
                 <span className="icon-bar" />
                 <span className="icon-bar" />
                 </button>
-                <h1><a href="index.html">Bettering</a></h1>
+                <h1><Link to="/">Bettering</Link></h1>
             </div>
             {/* navbar-header */}
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul className="nav navbar-nav navbar-right">
-                <li><a href="index.html" className="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><Link to="/" className="active">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/gallery">Gallery</Link></li>
                 <li>
-                    <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span className="caret" /></a>
+                    <Link to="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span className="caret" /></Link>
                     <ul className="dropdown-menu">
-                    <li><a href="icons.html">Web Icons</a></li>
-                    <li><a href="codes.html">Short Codes</a></li>
+                    <li><Link to="/">Web Icons</Link></li>
+                    <li><Link to="/">Short Codes</Link></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><Link to="contact.html">Contact</Link></li>
                 </ul>
             </div>
             <div className="search-bar-hunileits">

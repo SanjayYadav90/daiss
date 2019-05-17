@@ -7,8 +7,8 @@ function TopHeader() {
             <div className="col-md-9 top-left">
             <ul>
                 <li><i className="fa fa-map-marker" aria-hidden="true" /> 1143 New York, USA</li>
-                <li><i className="fa fa-phone" aria-hidden="true" /> +(010) 221 918 811</li>
-                <li><i className="fa fa-envelope-o" aria-hidden="true" /> <a href="mailto:info@example.com">info@example.com</a></li>
+                <li><i className="fa fa-phone" aria-hidden="true" /> +(91) 9876 543 211</li>
+                <li><i className="fa fa-envelope-o" aria-hidden="true" /> <a href="mailto:info@daiss.com">info@daiss.com</a></li>
             </ul>
             </div>
             <div className="col-md-3 top-middle">
