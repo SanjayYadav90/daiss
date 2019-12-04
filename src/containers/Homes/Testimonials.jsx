@@ -11,7 +11,7 @@ function Testimonials() {
                 <ul className="slides">
                     <li>
                     <div className="inner-testimonials-hunt3ls">
-                        <img src="images/1.jpg" alt=" " className="img-responsive" />
+                        <img src={"../assets/images/1.jpg"} className="img-responsive" />
                         <div className="testimonial-info-huntre">
                         <h5>Andy Wovel</h5>
                         <span>Lorem Ipsum</span>
@@ -23,7 +23,7 @@ function Testimonials() {
                     </li>
                     <li>
                     <div className="inner-testimonials-hunt3ls">
-                        <img src="images/2.jpg" alt=" " className="img-responsive" />
+                        <img src={"../assets/images/2.jpg"} className="img-responsive" />
                         <div className="testimonial-info-huntre">
                         <h5>Bernard Russo</h5>
                         <span>Lorem Ipsum</span>
@@ -35,7 +35,7 @@ function Testimonials() {
                     </li>
                     <li>
                     <div className="inner-testimonials-hunt3ls">
-                        <img src="images/3.jpg" alt=" " className="img-responsive" />
+                        <img src={"../assets/images/3.jpg"} className="img-responsive" />
                         <div className="testimonial-info-huntre">
                         <h5>Alex Merphy &amp; July Mao</h5>
                         <span>Lorem Ipsum</span>
